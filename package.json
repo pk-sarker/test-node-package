@@ -1,0 +1,31 @@
+{
+  "name": "test-node-package",
+  "version": "1.0.0",
+  "description": "RND on creatig custom node package.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk-sarker/test-node-package.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Node",
+    "Package"
+  ],
+  "author": "Pijus Kumar Sarker <pijus.k.sarker@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pk-sarker/test-node-package/issues"
+  },
+  "homepage": "https://github.com/pk-sarker/test-node-package#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
