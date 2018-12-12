@@ -1,7 +1,7 @@
 {
-  "name": "test-node-package",
+  "name": "test-99-node-package",
   "version": "1.0.0",
-  "description": "RND on creatig custom node package.",
+  "description": "RND on creating custom node package.",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.4"
@@ -18,7 +18,7 @@
     "Node",
     "Package"
   ],
-  "author": "Pijus Kumar Sarker <pijus.k.sarker@gmail.com>",
+  "author": "Pijus Kumar Sarker <pijus.sarker@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pk-sarker/test-node-package/issues"
