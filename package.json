@@ -1,6 +1,6 @@
 {
   "name": "connvex-test-node-package",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "RND on creating custom node package.",
   "main": "index.js",
   "engines": {
