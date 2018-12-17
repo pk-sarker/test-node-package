@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+var Alert = require('./Alert');
+
 var schema = {
     type: Number,
     name: String,
@@ -8,7 +10,7 @@ var schema = {
     unit: Number,
     unitType: Number,
     partType: Number,
-    alert: AlertSchema
+    alert: new mongoose.Schema(Alert.schema)
 };
 module.exports = {
     schema: schema,
